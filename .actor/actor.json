@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "disaster-declaration-tracker",
+    "title": "Disaster Declaration Tracker — FEMA Declarations by State",
+    "description": "Track new FEMA disaster declarations — fires, floods, hurricanes, severe storms — by state or incident type, the moment they're declared. For insurance claims teams, disaster recovery contractors, and emergency management watching for new activations.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

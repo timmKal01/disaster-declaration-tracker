@@ -1,0 +1,37 @@
+{
+    "title": "Disaster Declaration Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "states": {
+            "title": "States (optional)",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Two-letter state codes to filter (e.g. \"CA\", \"TX\"). Leave empty for nationwide."
+        },
+        "incidentTypes": {
+            "title": "Incident types (optional)",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Only include these incident types (e.g. \"Fire\", \"Flood\", \"Hurricane\", \"Severe Storm(s)\"). Leave empty for all types."
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to include, by declaration date.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of declarations to return, most recently declared first.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 200
+        }
+    }
+}
