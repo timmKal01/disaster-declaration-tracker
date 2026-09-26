@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "femaDeclarationString",
+                    "disasterNumber",
+                    "state",
+                    "declarationType",
+                    "declarationTitle",
+                    "incidentType",
+                    "declarationDate",
+                    "incidentBeginDate",
+                    "incidentEndDate",
+                    "designatedArea",
+                    "iaProgramDeclared",
+                    "paProgramDeclared"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "femaDeclarationString": {
+                        "label": "FEMA declaration string",
+                        "format": "text"
+                    },
+                    "disasterNumber": {
+                        "label": "Disaster number",
+                        "format": "number"
+                    },
+                    "state": {
+                        "label": "State",
+                        "format": "text"
+                    },
+                    "declarationType": {
+                        "label": "Declaration type",
+                        "format": "text"
+                    },
+                    "declarationTitle": {
+                        "label": "Declaration title",
+                        "format": "text"
+                    },
+                    "incidentType": {
+                        "label": "Incident type",
+                        "format": "text"
+                    },
+                    "declarationDate": {
+                        "label": "Declaration date",
+                        "format": "date"
+                    },
+                    "incidentBeginDate": {
+                        "label": "Incident begin date",
+                        "format": "date"
+                    },
+                    "incidentEndDate": {
+                        "label": "Incident end date",
+                        "format": "date"
+                    },
+                    "designatedArea": {
+                        "label": "Designated area",
+                        "format": "text"
+                    },
+                    "iaProgramDeclared": {
+                        "label": "IA program declared",
+                        "format": "boolean"
+                    },
+                    "paProgramDeclared": {
+                        "label": "PA program declared",
+                        "format": "boolean"
+                    }
+                }
+            }
+        }
+    }
+}
