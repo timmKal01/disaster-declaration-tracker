@@ -76,5 +76,5 @@ the search returns 1 declaration or 200.
 
 ## Related products
 
-- [Field Operations Risk Briefing](https://github.com/timmKal01/field-operations-risk-briefing) — current weather/GPS/radio conditions at a location, rather than declared disasters
-- [Earthquake Alert](https://github.com/timmKal01/earthquake-alert) — a different hazard type (seismic activity) not covered by FEMA declarations
+- [Field Ops Risk Briefing](https://apify.com/m_ctim/field-operations-risk-briefing): current weather/GPS/radio conditions at a location, rather than declared disasters
+- [Earthquake Tracker](https://apify.com/m_ctim/earthquake-alert): a different hazard type (seismic activity) not covered by FEMA declarations
