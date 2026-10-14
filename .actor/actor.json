@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "disaster-declaration-tracker",
     "title": "FEMA Disaster Declaration Tracker by State",
-    "description": "Track new FEMA disaster declarations — fires, floods, hurricanes, severe storms — by state or incident type, the moment they're declared. For insurance claims teams, disaster recovery contractors, and emergency management watching for new activations.",
+    "description": "New FEMA disaster declarations by state and incident type (fires, floods, hurricanes, severe storms and more): areas covered, dates, and which assistance programs were approved. For insurance claims teams, disaster recovery contractors and emergency managers.",
     "version": "0.1",
     "meta": {
         "templateId": "custom-no-proxy"

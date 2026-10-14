@@ -1,13 +1,25 @@
-# Disaster Declaration Tracker — FEMA Declarations by State
+# FEMA Disaster Declaration Tracker by State
 
-Track new FEMA disaster declarations — fires, floods, hurricanes, severe
-storms, and more — by state or incident type, the moment they're
-declared. Get the disaster number, declared programs, affected area, and
-a link to the FEMA disaster page.
+New U.S. disaster declarations for insurance claims teams, disaster
+recovery contractors and emergency managers. Filter official FEMA
+declarations by state and incident type (fires, floods, hurricanes, severe
+storms and more) and get the latest ones, most recently declared first.
 
-Built for insurance claims teams, disaster recovery contractors, and
-emergency management professionals watching for new activations, without
-checking FEMA's site by hand.
+## What you get
+
+One row per declaration:
+
+- Disaster number, title, state and incident type
+- Declaration date, and when the incident started and ended
+- The counties or areas covered
+- Which assistance programs were approved (Individual Assistance, Public Assistance, Individuals and Households, Hazard Mitigation)
+- A link to the FEMA disaster page
+
+## Who this is for
+
+- **Insurance claims teams** preparing for claims in newly declared areas.
+- **Disaster recovery contractors** finding where federal recovery work is starting.
+- **Emergency management professionals** following new activations in their region.
 
 ## Input
 
